@@ -7,7 +7,7 @@ a multi line comment */
 int main()
 {
     int sum = 6;
-    cout<< "Variable"<< sum;
+    cout<< "Variable "<< sum;
     return 0;
 }
 
@@ -34,7 +34,7 @@ Variables in C++
 *Global and local variables can have same name.
 
 ## C++ Data types
-1. Built in 
-2. User Defined
-3. Derived
+1. Built in (int, float, char, Double, Bool)
+2. User Defined (struct, union, enum)
+3. Derived(array, functions, pointers)
 */
