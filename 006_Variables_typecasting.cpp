@@ -54,7 +54,7 @@ int main()
 
     cout<<"The expression z+i is: "<<(z+i)<<endl; //prints a float
     cout<<"The expression is z + int(i) is: "<< z + int(i)<<endl; //prints a int
-    cout<<"The expression is z + (int)i is: "<<z + (int)i<<endl;  //prints a int
+    cout<<"The expression is z + (int)i is: "<<z + (int)i<<endl;  //prints a int 
 
     return 0;
 }
