@@ -31,7 +31,7 @@ int main()
     //*********Operators Presedence*********
     // link-https://en.cppreference.com/w/cpp/language/operator_precedence
     int i = 3, j = 4;
-    int k = (i*5)+b-45+87;
+    int k = ((((i*5)+b)-45)+87); //Evaluate from left to right
     cout<<k;
     return 0;
     
