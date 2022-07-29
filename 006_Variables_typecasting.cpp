@@ -20,6 +20,13 @@ int main()
 
 //***************float, double and long double Literals**************
 
+
+/*  int/int = int
+    double/int = double
+    int/double = double
+*/   
+
+
     //by default 35.6 is a Double in C++. So to pass the number as a float type 35.6f
     float d = 35.6f; //f for making the number float
     long double e = 35.6l; //l for making the number long double
