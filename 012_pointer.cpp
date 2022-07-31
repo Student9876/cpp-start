@@ -21,6 +21,6 @@ int main()
     cout<<"The address of b is: "<<&b<<endl;
     cout<<"The address of b is: "<<c<<endl;
     cout<<"The value at address c is: "<<*c<<endl; //shows the address of pointer b which is now stored in c
-    cout<<"The value at address value_at(value_at(c)) is: "<<**c<<endl;
+    cout<<"The value at address value_at(value_at(c)) is: "<<**c<<endl; //shows the value of a
     return 0;
 }
