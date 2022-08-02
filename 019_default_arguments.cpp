@@ -2,11 +2,16 @@
 #include<iostream>
 using namespace std;
 
-float moneyReceived(int currentMoney, float factor = 1.04) //factor has a default value
+float moneyReceived(int currentMoney, float factor = 1.04) //factor has a default value. Write default arguments at last in function
 {
     return currentMoney*factor;
 }
 
+int strlen(const char *p)
+{
+    //there is no way that this function can 
+    //change the value of the arguments and give us a false result
+}
 int main()
 
 {
