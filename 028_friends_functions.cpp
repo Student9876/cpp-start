@@ -57,6 +57,7 @@ the class. c!.sumComplex()== Invalid
 3. Can be invoked without the help of any object
 4. Usually contains the object as arguments.
 5. Can be declared inside the public or private section of the class
-
+6. It cannot access the members directly by their names and need 
+object_name.member_name to access any member
 
 */
