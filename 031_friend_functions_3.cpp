@@ -38,9 +38,12 @@ temp = a;
 a = b;
 b = temp;
 */
-void exchange(c1 &x, c2 &y)
+//Call by reference
+void exchange(c1 &x, c2 &y) // here we cannot use x instead of &x. Because 
+                            //it makes a copy of the object. But to change 
+                            //the value of the real object, we must call by reference
 {
-    int temp = x.val1;
+    int temp = x.val1 ;
     x.val1 = y.val2;
     y.val2 = temp;
 
