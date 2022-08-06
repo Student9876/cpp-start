@@ -29,8 +29,7 @@ class Employee
 
 int Employee:: count; //This is a static member. This memory will not come with every obeject. It will come once with the class
 // default value is 0
-// If need to start from another value, just declare it here.
-//int Employee:: count= 1000;
+// If need to start from another value, just declare it here. like--> int Employee:: count= 1000;
 
 
 int main()

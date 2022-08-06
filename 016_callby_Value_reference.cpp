@@ -39,15 +39,14 @@ int & swapReferenceVari(int &a, int &b) //call by reference using C++ reference 
     return a;
 }
 int main()
-
 {
     int x=4,y=5; //this declared values do not change
-    cout<<"The sum of 4 and 5 is: "<<sum(x,y)<<endl;
     cout<<"The value of x is: "<<x<<endl<<"The value of y is: "<<y<<endl;
+    cout<<"The sum of 4 and 5 is: "<<sum(x,y)<<endl;
     // swapPointer(&x, &y);
     swapReferenceVar(x,y);
     cout<<"The value of x is: "<<x<<endl<<"The value of y is: "<<y<<endl;
-    swapReferenceVari(x,y) = 629; //chaning value of reference variable is similer to the 
+    swapReferenceVari(x,y) = 625; //changing value of reference variable. 
     cout<<"The value of x is: "<<x<<endl<<"The value of y is: "<<y<<endl;
     return 0;
 }

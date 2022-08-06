@@ -9,8 +9,7 @@ float moneyReceived(int currentMoney, float factor = 1.04) //factor has a defaul
 
 int strlen(const char *p)
 {
-    //there is no way that this function can 
-    //change the value of the arguments and give us a false result
+    //there is no way that this function can change the value of the arguments and give us a false result
 }
 int main()
 

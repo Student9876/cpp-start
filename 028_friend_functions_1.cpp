@@ -53,7 +53,7 @@ int main()
 /* Properties of friend function 
 1. Not in the scope of class.
 2. Since it is not in the scope of class, it cannot be called from the object of 
-the class. c!.sumComplex()== Invalid
+the class. c1.sumComplex()== Invalid
 3. Can be invoked without the help of any object
 4. Usually contains the object as arguments.
 5. Can be declared inside the public or private section of the class

@@ -13,7 +13,7 @@ int main()
 
 {
     int a,b;
-    cout<<"Enter the valur e of a & b: "<<endl;
+    cout<<"Enter the value e of a & b: "<<endl;
     cin>>a>>b;
     cout<<"Product of a and b is: "<<product(a,b)<<endl;
     cout<<"Product of a and b is: "<<product(a,b)<<endl;
