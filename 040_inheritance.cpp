@@ -29,7 +29,7 @@ Note:
 4. We cannot inherite private members of the base class
 */
 
-class Programmer : Employee
+class Programmer : public Employee
 {
 public:
     Programmer(int inpid)
@@ -50,7 +50,8 @@ int main()
     cout << saikat.salary << endl;
     Programmer skillF(10);
     cout << skillF.languageCode << endl;
-    skillF.getData();
+    cout << skillF.id << endl;
 
+    skillF.getData();
     return 0;
 }
