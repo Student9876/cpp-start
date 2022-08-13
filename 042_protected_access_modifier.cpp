@@ -13,8 +13,8 @@ class Base{
 For a protected member:
                         Public Derivation       Private Derivation      Protected Derivation
 1. Private Member       Not inherited           Not inherited               Not Inherited
-1. Protected Member        Protected            private                     protected
-1. Public Member            Public              Private                     Protected
+2. Protected Member        Protected            private                     protected
+3. Public Member            Public              Private                     Protected
 */
 class Derived : protected Base{
 

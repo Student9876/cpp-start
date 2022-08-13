@@ -13,7 +13,7 @@ public:
 
 class Derived : private Base
 {
-    // class is being derived publically
+    // class is being derived privately
     int data3;
 
 public:
@@ -60,7 +60,7 @@ int main()
     Derived der;
     // We can't call this methods because Derived class is now private
     // der.setData();
-    // der.setData1(5); // we can also set value of data 1 using derived class objectF
+    // der.setData1(5); // we can also set value of data 1 using derived class object
     der.process();
     der.display();
     return 0;
