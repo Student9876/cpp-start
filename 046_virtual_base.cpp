@@ -54,6 +54,7 @@ public:
     void set_score(float s)
     {
         score = s;
+        
     }
     void print_score(void)
     {
