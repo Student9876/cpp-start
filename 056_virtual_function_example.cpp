@@ -22,7 +22,7 @@ public:
     // void display() {
     //     cout<<"Bogus code"<<endl;
     //     // if we dont use virtual in this Base class, the pointer is going to call
-    //     //base class idplay function 2 times.
+    //     //base class display function 2 times.
     // }
 };
 
@@ -33,7 +33,6 @@ class CWHVideo : public CWH
 public:
     CWHVideo(string s, float r, float vl) : CWH(s, r)
     {
-        title = s;
         videolength = vl;
     }
     void display(void)
