@@ -23,7 +23,7 @@ int main()
     BaseClass * base_class_pointer;
     BaseClass obj_base;
     DerivedClass obj_derived;
-    base_class_pointer = &obj_derived; //Base class pointer pointing a derived class object 
+    base_class_pointer = &obj_derived; //Base class pointer pointing a derived class object. Not throwing any error
     
     base_class_pointer->var_base= 507658;
     // base_class_pointer->var_derived =40; //Will throw an error
@@ -36,5 +36,9 @@ int main()
 
     derived_class_pointer->var_base=789;
     derived_class_pointer->display();
+
+    //Here Runtime polymorphism is being used
+    // display() function has so many definitions, but in runtime its being decided that 
+    //what function is going to be called 
     return 0;
 }
