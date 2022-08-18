@@ -30,6 +30,7 @@
   ],
   "files.associations": {
     "iostream": "cpp",
-    "__locale": "cpp"
+    "__locale": "cpp",
+    "fstream": "cpp"
   }
 }
