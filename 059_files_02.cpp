@@ -22,7 +22,7 @@ int main()
     string content;
     getline(hin, content); //to get the total line
     // hin>>content;
-    cout<<"The content of the file is: "<<content;
+    cout<<"The content of the file is: "<<content<<endl;
     hin.close();
     return 0;
 }
