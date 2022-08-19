@@ -10,7 +10,8 @@ int main()
     ofstream out;
     out.open("log_sample.txt");
     out << "This is me\n";
-    out << "This is zeon";
+    out << "This is zeon\n";
+    out << "I'm using Arch linux now";
     out.close();
 
     ifstream in;
