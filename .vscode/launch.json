@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/enzeon/Documents/cpp-start",
-      "program": "/home/enzeon/Documents/cpp-start/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/Shouv/OneDrive/Documents/C++/cpp-start",
+      "program": "c:/Users/Shouv/OneDrive/Documents/C++/cpp-start/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
