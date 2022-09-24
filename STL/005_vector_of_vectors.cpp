@@ -30,7 +30,7 @@ int main()
         v.push_back(temp);
     }
     v[0].push_back(10);         // pushing an element in a the 0th vector in the vector
-    v.push_back(vector<int>()); // just pushed an empty vector
+    v.push_back(vector<int>()); // just pushed an empty vector in a vector
     for (int i = 0; i < v.size(); i++)
     {
         printVec(v[i]);
